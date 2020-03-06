@@ -6,11 +6,60 @@
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <button class="btn btn-light" type="button" id="button-addon1">Button</button>
-  </div>
-  <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-</div>
+    <section class="info">
+      <div class="title">Information</div>
+      <div class="info__row">
+        <span class="info__name info__name--block">Current URL:</span>
+        <span class="info__url">https://www.beslist.nl/products/sieraden_horloges/sieraden_horloges_424883/c/merk~10412646</span>
+      </div>
+      <div class="info__row">
+        <span class="info__name">Current segment:</span>
+        <span class="info__value badge badge-pill badge-info">1337</span>
+      </div>  
+    </section>
+
+    <section class="environment">
+      <div class="title">Open in environment</div>
+      <div class="environment__option">
+        <span class="environment__name">Development</span>
+        <button type="button" class="environment__action btn btn-info">New Tab</button>  
+      </div>
+      <div class="environment__option">
+        <span class="environment__name">Production</span>
+        <button type="button" class="environment__action btn btn-info">New Tab</button> 
+      </div>
+      <div class="environment__option">
+        <span class="environment__name">Staging</span>
+        <button type="button" class="environment__action btn btn-info">New Tab</button> 
+      </div>       
+    </section>
+
+    <section class="set-cookie">
+      <form class="set-cookie__group">
+        <div class="form-row">
+          <div class="set-cookie__col-1 col">
+            <input type="text" class="form-control" id="cookieInput" placeholder="Set cookie">
+          </div>
+          <div class="set-cookie__col-2 col">
+            <button type="submit" class="btn btn-primary btn-block">Set cookie</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="open-feature">
+      <form class="open-feature__group">
+        <div class="form-row">
+          <div class="col open-feature__col">
+            <input type="text" class="form-control open-feature__input" id="openManualBranch" placeholder="feature/TWEB-1234-test">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col open-feature__col">
+              <button class="btn btn-primary btn-block">Open manual branch</button>
+          </div>
+        </div>        
+      </form>
+    </section>
 </body>
 </html>
