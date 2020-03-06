@@ -72,7 +72,7 @@ var options = {
           ...JSON.parse(content.toString())
         }))
       }
-    }]),
+    }], { copyUnmodified: true }),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "popup.html"),
       filename: "popup.html",
