@@ -25,7 +25,7 @@ var options = {
     popup: path.join(__dirname, "src", "js", "popup.js"),
     options: path.join(__dirname, "src", "js", "options.js"),
     background: path.join(__dirname, "src", "js", "background.js"),
-    popup: path.join(__dirname, "src", "scss", "popup.scss")
+    popup_styles: path.join(__dirname, "src", "scss", "popup.scss")
   },
   output: {
     path: path.join(__dirname, "build"),
