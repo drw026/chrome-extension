@@ -1,3 +1,6 @@
+import '../img/beslist16.png';
+import '../img/beslist48.png';
+import '../img/beslist128.png';
 import { getCurrentTabData, getSegment } from './popup/browserDataService';
 import info from './popup/info';
 import environment from './popup/environment';
