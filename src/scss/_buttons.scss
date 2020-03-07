@@ -1,0 +1,29 @@
+.btn {
+    border: 1px solid rgba(27,31,35,.2);
+    font-weight: 600;
+
+    &-cta {
+        background-image: linear-gradient(#fa9558,#e95703);
+
+        &:hover {
+            background-image: linear-gradient(#fa9558,#f37632);
+        }
+    }
+
+    &-info {
+        background-image: linear-gradient(#24b5e9, #0084b2);
+
+        &:hover {
+            background-image: linear-gradient(#24b5e9,#1f99c4);
+        }
+    }
+
+    &-primary {
+        background-color: #e6ebf1;
+        background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+        
+        &:hover {
+            background-image:   linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%)
+        }
+    }
+}
