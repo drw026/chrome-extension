@@ -8,6 +8,11 @@
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"
   },
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "<all_urls>"
+  ],
   "icons": {
     "128": "icon-128.png"
   },
