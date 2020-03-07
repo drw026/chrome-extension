@@ -1,14 +1,10 @@
 .environment {
-
-    & > &__option + &__option {
-        border-top: 1px solid #e6e6e6;
-        width: 100%;
-    }
-
     &__option {
+        border-top: 1px solid #e6e6e6;
         cursor: pointer;
         display: flex;
         padding: .5rem 1rem;
+        width: 100%;
 
         &:hover {
             background: #f5f5f5;
