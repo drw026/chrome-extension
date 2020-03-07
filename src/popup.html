@@ -51,12 +51,16 @@
       <form class="open-feature__group">
         <div class="form-row">
           <div class="col open-feature__col">
-            <input type="text" class="form-control open-feature__input" id="openManualBranch" placeholder="feature/TWEB-1234-test">
+            <input type="text"
+                   class="form-control open-feature__input"
+                   id="openManualBranch"
+                   placeholder="E.g: feature/TWEB-1234-test"
+                   data-open-feature="input">
           </div>
         </div>
         <div class="form-row">
           <div class="col open-feature__col">
-              <button class="btn btn-primary btn-block">Open manual branch</button>
+              <button type="submit" class="btn btn-cta btn-block" data-open-feature="button">Open manual branch</button>
           </div>
         </div>        
       </form>
