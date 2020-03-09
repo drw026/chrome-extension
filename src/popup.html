@@ -6,6 +6,10 @@
   <link rel="stylesheet" href="popup_styles.css">
 </head>
 <body>
+    <section class="header">
+      <span class="logo"></span>
+    </section>
+
     <section class="info">
       <div class="title">Information</div>
       <div class="info__row">
@@ -15,23 +19,23 @@
       <div class="info__row">
         <span class="info__name">Current segment:</span>
         <span class="info__value info__segment badge badge-pill badge-info"></span>
-      </div>  
+      </div>
     </section>
 
     <section class="environment">
       <div class="title">Open in environment</div>
       <div class="environment__option" data-environment="dev">
         <span class="environment__name">Development</span>
-        <button type="button" class="environment__action btn btn-primary">New Tab</button>  
+        <button type="button" class="environment__action btn btn-primary">New Tab</button>
       </div>
       <div class="environment__option" data-environment="prod">
         <span class="environment__name">Production</span>
-        <button type="button" class="environment__action btn btn-primary">New Tab</button> 
+        <button type="button" class="environment__action btn btn-primary">New Tab</button>
       </div>
       <div class="environment__option" data-environment="staging">
         <span class="environment__name">Staging</span>
-        <button type="button" class="environment__action btn btn-primary">New Tab</button> 
-      </div>       
+        <button type="button" class="environment__action btn btn-primary">New Tab</button>
+      </div>
     </section>
 
     <section class="set-cookie">
@@ -63,8 +67,12 @@
           <div class="col open-feature__col">
               <button type="submit" class="btn btn-cta btn-block" data-open-feature="button">Open manual branch</button>
           </div>
-        </div>        
+        </div>
       </form>
     </section>
+
+  <section class="footer">
+    <span class="logo-beslist"></span>
+  </section>
 </body>
 </html>

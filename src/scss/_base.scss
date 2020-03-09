@@ -4,7 +4,7 @@ body {
 
 body > section + section {
     border-top: 1px solid #e6e6e6;
-} 
+}
 
 .title {
     color: #545454;
@@ -12,4 +12,28 @@ body > section + section {
     font-weight: bold;
     padding: .5rem 1rem;
     text-transform: uppercase;
+}
+
+.header {
+    padding: .5rem 1rem;
+}
+
+.logo {
+    background: url('../img/logo-tweb.png') no-repeat left;
+    display: flex;
+    height: 34px;
+    width: 151px;
+}
+
+.footer {
+    padding: .5rem 1rem;
+}
+
+.logo-beslist {
+    background: url('../img/logo-beslist.png') no-repeat left;
+    background-size: contain;
+    display: flex;
+    height: 14px;
+    margin: 0 auto;
+    width: 70px;
 }
