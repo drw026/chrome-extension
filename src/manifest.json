@@ -11,7 +11,8 @@
   "permissions": [
     "activeTab",
     "cookies",
-    "<all_urls>"
+    "<all_urls>",
+    "webNavigation"
   ],
   "icons": {
     "16": "beslist16.png",
