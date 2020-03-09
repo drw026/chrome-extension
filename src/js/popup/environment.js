@@ -28,11 +28,11 @@ const environment = (element, { currentTabData }) => {
     const newPath = setNewPath(currentTabData.url);
 
     developmentElement.onclick = () => { openPathInCurrentTab(developmentBaseUrl, newPath) };
-    developmentElement.querySelector('.environment__action').onclick = () => { openPathInNewTab(developmentBaseUrl, newPath) };
+    developmentElement.querySelector('[data-environment="tab"]').onclick = () => { openPathInNewTab(developmentBaseUrl, newPath) };
     productionElement.onclick = () => { openPathInCurrentTab(productionBaseUrl, newPath) };
-    productionElement.querySelector('.environment__action').onclick = () => { openPathInNewTab(productionBaseUrl, newPath) };
+    productionElement.querySelector('[data-environment="tab"]').onclick = () => { openPathInNewTab(productionBaseUrl, newPath) };
     stagingElement.onclick = () => { openPathInCurrentTab(stagingBaseUrl, newPath) };
-    stagingElement.querySelector('.environment__action').onclick = () => { openPathInNewTab(stagingBaseUrl, newPath) };
+    stagingElement.querySelector('[data-environment="tab"]').onclick = () => { openPathInNewTab(stagingBaseUrl, newPath) };
 }
 
 export default environment;
