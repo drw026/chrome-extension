@@ -3,7 +3,7 @@ import '../img/beslist48.png';
 import '../img/beslist128.png';
 import '../img/logo-tweb.png';
 import '../img/logo-beslist.png';
-import { getCurrentTabData, getSegment } from './popup/browserDataService';
+import { getCurrentTabData, getSegment } from './services/browserData';
 import info from './popup/info';
 import environment from './popup/environment';
 import setCookie from './popup/setCookie';
